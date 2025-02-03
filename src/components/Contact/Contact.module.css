@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.button {
+  width: 76px;
+  height: 36px;
+  display: block;
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
