@@ -3,7 +3,7 @@ import s from "./Loader.module.css";
 
 const Loader = () => {
   return (
-    <div className="s.loader">
+    <div className={s.spinner}>
       <TailSpin
         visible={true}
         height="80"
